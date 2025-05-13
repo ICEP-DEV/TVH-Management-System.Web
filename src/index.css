@@ -1,0 +1,123 @@
+/* === Base Styles === */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /*background: url('https://tse3.mm.bing.net/th?id=OIP.LFlIGADL4SrEVBh-EjCGGgHaEK&rs=1&pid=ImgDetM>ain.jpg')
+    center center / cover no-repeat;*/
+  color: #0f0f0f;
+}
+
+/* === General Page Container === */
+.content {
+  text-align: center;
+  padding-top: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 300px;
+}
+
+/* === About Section === */
+.about-section {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 50px 25px;
+  text-align: center;
+}
+
+.about-section h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.about-section p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #ccc;
+}
+
+/* === Footer (extended styling) === */
+footer {
+  background-color: #111;
+  color: #ddd;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.95rem;
+}
+
+footer .social-icons a {
+  color: #090909;
+  margin: 0 12px;
+  font-size: 1.4rem;
+  transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: black;
+}
+
+footer .back-to-top {
+  display: inline-block;
+  margin-top: 20px;
+  color: #00bfff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .back-to-top:hover {
+  text-decoration: underline;
+}
+
+footer .contact-info {
+  margin-top: 15px;
+  font-size: 0.85rem;
+}
+
+/* === Dropdown Overrides (Dark Theming) === */
+.dropdown-item {
+  color: #eee !important;
+}
+
+.dropdown-menu {
+  background-color: #000;
+  border: 1px solid #444;
+}
+
+/* === Form Styling === */
+.formcontent {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.form-container {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.form-control,
+.form-select {
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.form-control::placeholder {
+  color: #bbb;
+}
+
+/* === Star Rating === */
+.rating-stars i {
+  font-size: 1.5rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.rating-stars i.active {
+  color: gold;
+}
